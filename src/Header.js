@@ -9,6 +9,7 @@ import BusinessCenterIcon from "@material-ui/icons/BusinessCenter";
 import ChatIcon from "@material-ui/icons/Chat";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import douglaspic from "./images/douglas.jpeg";
+import LinkedIn from "../src/images/LinkedIn.svg";
 
 // components
 import HeaderOption from "./HeaderOption";
@@ -17,10 +18,7 @@ function Header() {
   return (
     <div className="header">
       <div className="header__left">
-        <img
-          src="https://cdn-icons.flaticon.com/png/512/3536/premium/3536505.png?token=exp=1646136397~hmac=ed6b077f09e36ee2cabbb87d8f941a42"
-          alt="linkedIn icon"
-        />
+        <img src={LinkedIn} alt="linkedIn icon" />
 
         <div className="header__search">
           <SearchIcon />
